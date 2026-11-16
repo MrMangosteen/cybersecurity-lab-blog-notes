@@ -1,9 +1,10 @@
+# Way of Thinking
 
 -  Each programming language has strength and weaknesses.
 
 - Better to get deep understanding of one programming language, then we can learn others faster.
 
-- All follow principles of R. D. Tennent:
+- All programming languages follow the  R. D. Tennent's principles:
 	1. The Principle of Abstraction
 	2. The Principle of Correspondence
 	3. The Principle of Data Type Completeness
