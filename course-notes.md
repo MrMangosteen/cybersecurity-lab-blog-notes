@@ -1,4 +1,5 @@
-# Way of Thinking
+# Learning Process
+## Way of Thinking
 
 -  Each programming language has strength and weaknesses.
 
