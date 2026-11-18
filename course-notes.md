@@ -22,7 +22,7 @@
 
 - Pen-testers must have deep understanding of many technologies.
 
-- Either learn about many topics and not master any or learn one and become and expert
+- Either learn about many topics and not master any **or** learn one and become an expert
 	>*"Jack of all trades, master of none"*
 
 - Another option is developing a research method, learning process, and how to use it to improve knowledge.
