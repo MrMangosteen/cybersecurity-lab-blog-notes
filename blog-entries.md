@@ -28,6 +28,7 @@ Commands ran:
 	Reran command:
 	- 'nmap -Pn 192.168.x.x'
 		-Pn should skip host discovery to make nmap more successful
+   
 	Did not work, retransmission cap hit once again
 
 - Changing tool from terminal to Metasploit Framework
