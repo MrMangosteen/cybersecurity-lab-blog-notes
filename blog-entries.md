@@ -31,6 +31,7 @@ Commands ran:
 	Did not work, retransmission cap hit once again
 
 - Changing tool from terminal to Metasploit Framework
+
 	Pinged victim IP using same command as before
 	
 	Attempting to preform nmap:
