@@ -58,7 +58,7 @@ Objective: Gain remote control of Metasploitable2 through Kali Linux
 	
 	- On Kali Linux:
 		- 'ping 192.168.56.102'
-			- ![[<Screenshot 2026-11-20 132826.png>]]
+			- ![[<Screenshot%202026-11-20%20132826.png>]]
 			- Connection successful: 0% packet loss
 		- 'nmap -Pn -sV 192.168.56.102'
 			- ![Pasted <image 20261120133318.png>]]
