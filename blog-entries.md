@@ -58,17 +58,17 @@ Objective: Gain remote control of Metasploitable2 through Kali Linux
 	
 	- On Kali Linux:
 		- 'ping 192.168.56.102'
-			- ![[Screenshot 2026-11-20 132826.png]]
+			- ![[Screenshot 2026-11-20 132826.png?raw=true]]
 			- Connection successful: 0% packet loss
 		- 'nmap -Pn -sV 192.168.56.102'
-			- ![[Pasted image 20261120133318.png]]
+			- ![[Pasted image 20261120133318.png?raw=true]]
 			- This time, it was successful and multiple open ports can be seen below, '-sV' also lets us see the versions. We will be targeting Port 23 "telnet" in this case.
 		- 'telnet --help'
 			- This just allows to see possible commands that can be ran with telnet
 		- 'telnet 192.168.56.102'
-			- ![[Pasted image 20261120134804.png]]
+			- ![[Pasted image 20261120134804.png?raw=true]]
 			- Allows us to remotely access the victim machine through the login
-			- ![[Screenshot 2026-11-20 140120.png]]
+			- ![[Screenshot 2026-11-20 140120.png?raw=true]]
 				- A lot of this is just me messing around or misspelling commands
 				- The few successful commands:
 				- 'pwd' 
