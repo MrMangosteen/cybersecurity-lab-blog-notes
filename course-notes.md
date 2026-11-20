@@ -117,7 +117,7 @@
 	- Repertoire
 		- From associations
 		- Practical experience
-			- Practice to become competent
+			- Practice needed to become competent
 
 - Pareto Principle (80/20 rule):
 	- With 20% effort, 80% effect can be achieved.
