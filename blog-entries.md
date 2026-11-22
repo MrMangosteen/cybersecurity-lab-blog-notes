@@ -84,4 +84,4 @@ Results: It seems allocating more memory to Metasploitable was able to make nmap
 
 # 11/21/2026
 
-Minor addendum: Switched the operating system on my laptop from Windows to Linux Mint. May take time to reinstall and reconfigure Oracle VBox and VMs.
+Minor addendum: Switched the operating system on my laptop from Windows to Linux Mint. May take time to reinstall and reconfigure Oracle VBox and VMs. Also, I know images don't show up in GitHub, I don't know how to fix.
