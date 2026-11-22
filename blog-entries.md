@@ -1,8 +1,8 @@
 # 11/17/2026
 
-Objective: Gain control of Metasploitable Virtual Machine though Kali Linux
+Objective: Gain control of Metasploitable Virtual Machine (VM) though Kali Linux
 
-- Booted up Kali Linux (attack machine) and Metasploitable (victim machine)
+- Booted up Kali Linux (attack machine) and Metasploitable (victim machine) on Oracle VirtualBox (VBox).
 
 Commands ran:
 - In Metasploitable:
@@ -11,6 +11,7 @@ Commands ran:
 
 - In Kali Linux (in Terminal):
 	- 'ping 192.168.x.x'
+		- 
 		ping makes sure that the attack machine can connect to the victim machine.
 		pinged victim's IP
 	
@@ -58,17 +59,17 @@ Objective: Gain remote control of Metasploitable2 through Kali Linux
 	
 	- On Kali Linux:
 		- 'ping 192.168.56.102'
-			- ![[<Screenshot%202026-11-20%20132826.png>]]
+			- ![[Pasted image 20261122142937.png]]
 			- Connection successful: 0% packet loss
 		- 'nmap -Pn -sV 192.168.56.102'
-			- ![Pasted <image 20261120133318.png>]]
+			- ![[Pasted image 20261122142948.png]]
 			- This time, it was successful and multiple open ports can be seen below, '-sV' also lets us see the versions. We will be targeting Port 23 "telnet" in this case.
 		- 'telnet --help'
+			- ![[Pasted image 20261122143008.png]]
 			- This just allows to see possible commands that can be ran with telnet
 		- 'telnet 192.168.56.102'
-			- ![[Pasted <image 20261120134804.png>]]
+			- ![[Pasted image 20261122143030.png]]
 			- Allows us to remotely access the victim machine through the login
-			- ![[<Screenshot 2026-11-20 140120.png>]]
 				- A lot of this is just me messing around or misspelling commands
 				- The few successful commands:
 				- 'pwd' 
@@ -78,4 +79,9 @@ Objective: Gain remote control of Metasploitable2 through Kali Linux
 				- 'ls'
 					Gives a list of files
 
-Results: It seems allocating more memory to Metasploitable was able to make nmap work more effectively and gaining remote access to the victim machine was successful.
+Results: It seems allocating more memory to Metasploitable was able to make nmap work more effectively and gaining remote access to the victim machine was successful. Next steps should be figuring out how to get remote access without logging in.
+
+
+# 11/21/2026
+
+Minor addendum: Switched the operating system on my laptop from Windows to Linux Mint. May take time to reinstall and reconfigure Oracle VBox and VMs.
