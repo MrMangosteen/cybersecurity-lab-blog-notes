@@ -11,7 +11,6 @@ Commands ran:
 
 - In Kali Linux (in Terminal):
 	- 'ping 192.168.x.x'
-		- 
 		ping makes sure that the attack machine can connect to the victim machine.
 		pinged victim's IP
 	
